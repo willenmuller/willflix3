@@ -1,0 +1,50 @@
+:root{ 
+    --branco-principal:#FFFFFF;
+    --cinza-segundario:#C0C0C0;
+    --botão-azul:#167BF7;
+    --cor-de-fundo:#090807;
+    --minha-cor: #f41010;
+    --fonte-principal: 'roboto';
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    background-image:url("./img/i1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.duplo{
+    height: 110vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.conteiner_botao{
+    background-color: var(--botão-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+}
+.botao_segundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+.conteiner_aviso{
+    font-size: 20px;
+    color: var(--minha-cor);
+}
+.conteiner-img{
+    margin: 1em 0 2em 0;
+}
+.conteiner-caixa{
+    margin: 0 6em;
+}
+    
